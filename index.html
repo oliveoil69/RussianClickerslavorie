@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-
-
-      
-      
+ <!DOCTYPE html>
+<style>
+    p{color: wheat;}
+</style>
+  
       <button id="generate"></button>
     <body>
 
     
     <script type="application/x-javascript">
-        const name = ["Inshov Karl Yevgenievich's", "Pogodov", "Grigoryev Ilya Ilik Andreevich", "Borzilov Slava Aleskeevich", "Dunayevsky Karl Timurovich", "Yermakov Yuriy Yura Igorevich", "Mikhalev Yulian Georgiy", "Budanov Slava Ivanovich", "Melnikov Yevgeniy Zhenya Valentinovich", "Sitnikov Milorad Filippovich", "Ogurtsov Matvei Leonidovich", "Pomelov Vitomir Svyatoslavovich", "Essen Yevgeniy Zhenya Ivanovich", "Starikov Kvetoslav Svyatoslavovich", "Patrushev Dmitriy Dima Zakharovich", "Rudnikov Danila Danilka Valeryevich", "Usilov Rollan Vitalievich", "Moroshkin Grigoriy Grisha Konstantinovich", "Grinin Radoslav Filippovich", "Kasaty Yefim Yemelyanovich", "Krutov Oleg Olezhka Yakovich", "Savinkov Yevdokim Semyonovich", "Turov Arseniy Vyacheslavovichs"];
+        const name = ["Inshov Karl Yevgenievich's", "Pogodov's", "Grigoryev Ilya Ilik Andreevich's", "Borzilov Slava Aleskeevich's", "Dunayevsky Karl Timurovich's", "Yermakov Yuriy Yura Igorevich's", "Mikhalev Yulian Georgiy's", "Budanov Slava Ivanovich's", "Melnikov Yevgeniy Zhenya Valentinovich's", "Sitnikov Milorad Filippovich's", "Ogurtsov Matvei Leonidovich's", "Pomelov Vitomir Svyatoslavovich's", "Essen Yevgeniy Zhenya Ivanovich's", "Starikov Kvetoslav Svyatoslavovich's", "Patrushev Dmitriy Dima Zakharovich's", "Rudnikov Danila Danilka Valeryevich's", "Usilov Rollan Vitalievich's", "Moroshkin Grigoriy Grisha Konstantinovich's", "Grinin Radoslav Filippovich's", "Kasaty Yefim Yemelyanovich's", "Krutov Oleg Olezhka Yakovich's", "Savinkov Yevdokim Semyonovich's", "Turov Arseniy Vyacheslavovichs's"];
             
         const getrandomnumber = (max) => Math.floor(Math.random() * max);        
         var getrandomname = () => `${name[getrandomnumber(name.length)]}`
@@ -30,7 +30,7 @@
     
 body {
    background: linear-gradient(180deg, #FFFFFF, #FFFFFF, #FFFFFF, #0033A0, #DA291C ,#FFFFFF, #FFFFFF, #FFFFFF);
-    background-size: 400% 400%;
+    background-size: 100% 100%;
     animation: BackroundGradient 1800s ease infinite;
     
     
@@ -42,11 +42,22 @@ body {
     }
         
    </style>
-
+   
+        <style type="text/css">
+        
+            body{
+                
+                background-image: url(bakr.png);
+                background-position: cover;
+                background-attachment: fixed;
+            }
+            
+           
+        </style>
 <center><table style="column-fill: balance">
     <tr>
         <td contenteditable="true" spellcheck="false">
-        <center><b style="font-size: 25px"><div id="random-name"></div></b></center>
+        <center><b style="font-size: 25px"><div id="random-name" style="color: wheat"></div></b></center>
         </td>
     </tr>
     <tr>
@@ -56,7 +67,13 @@ body {
     </tr>
 </table></center>
 
-
+<style>
+     
+    background image{
+        
+    } 
+    
+        </style>
 
 <script>
     function update() {
@@ -90,10 +107,10 @@ body {
         document.getElementById('costadvertising').innerHTML = ((advertising+1) * 10000000) + " rubles";
         
         document.getElementById('ammountscamartist').innerHTML = "you have " + scamartist + " scam artists";
-        document.getElementById('costscamartist').innerHTML = ((scamartist+1) * 750000000) + " rubles";
+        document.getElementById('costscamartist').innerHTML = ((scamartist+1) * 300000000) + " rubles";
         
         document.getElementById('bottlespersec').innerHTML = "YOU MAKE " + 
-            (((normieSlav)+(comradSlav*3)+(babushka*10)+(potatofarm*20)+(glassfactory*100)+(deliveryslav*250)+(deliverytruck*700)+(deliveryplane*1300)+(advertising*2200)+(scamartist*10000))*upgrade1*upgrade2) + " RUBLES per/s";
+            (((normieSlav)+(comradSlav*3)+(babushka*10)+(potatofarm*20)+(glassfactory*100)+(deliveryslav*250)+(deliverytruck*700)+(deliveryplane*1300)+(advertising*3000)+(scamartist*15000))*upgrade1*upgrade2*upgrade3) + " RUBLES per/s";
     }
     var deliverytruck = 0;
     var deliveryslav = 0;
@@ -114,16 +131,16 @@ body {
     
     
     function timer() {
-        bottlesofvodka = bottlesofvodka + normieSlav*upgrade1*upgrade2;
-        bottlesofvodka = bottlesofvodka + comradSlav*3*upgrade1*upgrade2;
-        bottlesofvodka = bottlesofvodka + babushka*10*upgrade1*upgrade2;
-        bottlesofvodka = bottlesofvodka + potatofarm*20*upgrade1*upgrade2;
-        bottlesofvodka = bottlesofvodka + glassfactory*100*upgrade1*upgrade2;
-        bottlesofvodka = bottlesofvodka + deliveryslav*250*upgrade1*upgrade2;
-        bottlesofvodka = bottlesofvodka + deliverytruck*700*upgrade1*upgrade2;
-        bottlesofvodka = bottlesofvodka + deliveryplane*1300*upgrade1*upgrade2;
-        bottlesofvodka = bottlesofvodka + advertising*2200*upgrade1*upgrade2;
-        bottlesofvodka = bottlesofvodka + scamartist*10000*upgrade1*upgrade2;
+        bottlesofvodka = bottlesofvodka + normieSlav*upgrade1*upgrade2*upgrade3;
+        bottlesofvodka = bottlesofvodka + comradSlav*3*upgrade1*upgrade2*upgrade3;
+        bottlesofvodka = bottlesofvodka + babushka*10*upgrade1*upgrade2*upgrade3;
+        bottlesofvodka = bottlesofvodka + potatofarm*20*upgrade1*upgrade2*upgrade3;
+        bottlesofvodka = bottlesofvodka + glassfactory*100*upgrade1*upgrade2*upgrade3;
+        bottlesofvodka = bottlesofvodka + deliveryslav*250*upgrade1*upgrade2*upgrade3;
+        bottlesofvodka = bottlesofvodka + deliverytruck*700*upgrade1*upgrade2*upgrade3;
+        bottlesofvodka = bottlesofvodka + deliveryplane*1300*upgrade1*upgrade2*upgrade3;
+        bottlesofvodka = bottlesofvodka + advertising*3000*upgrade1*upgrade2*upgrade3;
+        bottlesofvodka = bottlesofvodka + scamartist*15000*upgrade1*upgrade2*upgrade3;
 
         
 
@@ -155,75 +172,75 @@ body {
         <table border="2" style="width: 100%">
         <tr>
             <td>
-            <p>HIRE NORMIE SLAV</p>
-        <button><a href="#" onclick="hirenormieSlav()"><img src="normieslav.jpg" width="50" height="65"></a></button>
-        <p id="costnormieSlav">20 rubles</p>
-        <p id="ammountnormieSlav">You Have 0 Normie Slavs</p>
+                <b><p>HIRE NORMIE SLAV</p></b>
+        <a href="#" class="button" onclick="hirenormieSlav()"><img src="normieslav.jpg" width="60" height="75"></a>
+                <b><p id="costnormieSlav">20 rubles</p></b>
+        <b><p id="ammountnormieSlav">You Have 0 Normie Slavs</p></b>
             </td>
             
             <td>
-           <p>HIRE COMRAD SLAV</p>
-        <button><a href="#" onClick="hirecomradSlav()"><img src="comradslav.png" width="75" height="75"></a></button>
-        <p id="costcomradSlav">200 rubles</p>
-        <p id="ammountcomradSlav">You Have 0 Comrad Slavs</p>
+                <b><p>HIRE COMRAD SLAV</p></b>
+         <a href="#" class="button" onClick="hirecomradSlav()"><img src="comradslav.png" width="75" height="75"></a>
+                <b><p id="costcomradSlav">200 rubles</p></b>
+                <b><p id="ammountcomradSlav">You Have 0 Comrad Slavs</p></b><p></p>
            </td>
             
             <td>
-               <p>HIRE BABUSHKA</p>
-        <button><a href="#" onclick="hirebabushka()"><img src="granny.png" width="65" height="65"></a></button>
-        <p id="costbabushka">1,000 rubles</p>
-        <p id="ammountbabushka">You Have 0 Babushkas</p>
+                <b><p>HIRE BABUSHKA</p></b>
+         <a href="#" class="button" onclick="hirebabushka()"><img src="granny.png" width="75" height="75"></a>
+                <b><p id="costbabushka">1,000 rubles</p></b>
+                <b><p id="ammountbabushka">You Have 0 Babushkas</p></b>
             </td>
             
             <td>
-               <p>BUILD POTATO FARM</p>
-        <button><a href="#" onclick="buildpotatofarm()"><img src="potato.png" width="65" height="65"></a></button>
-        <p id="costpotatofarm">5,000 rubles</p>
-        <p id="ammountpotatofarm">You Have 0 potato farms</p>
+                <b><p>BUILD POTATO FARM</p></b>
+         <a href="#" class="button" onclick="buildpotatofarm()"><img src="potato.png" width="75" height="75"></a>
+                <b><p id="costpotatofarm">5,000 rubles</p></b>
+                <b><p id="ammountpotatofarm">You Have 0 potato farms</p></b>
             </td>
             
             <td>
-               <p>BUILD GULAG</p>
-        <button><a href="#" onclick="buildglassfactory()"><img src="gulag.png" width="90" height="65"></a></button>
-        <p id="costglassfactory">25,000 rubles</p>
-        <p id="ammountglassfactory">You Have 0 gulags</p>
+                <b><p>BUILD GULAG</p></b>
+         <a href="#" class="button" onclick="buildglassfactory()"><img src="gulag.png" width="90" height="75"></a>
+                <b><p id="costglassfactory">25,000 rubles</p></b>
+                <b><p id="ammountglassfactory">You Have 0 gulags</p></b>
                 
             </td>
             </tr>
             <tr>
             <td>
-            <p>HIRE DELIVERY BABUSHKA</p>
-        <button><a href="#" onclick="hiredeliveryslav()"><img src="mailman.png" width="100" height="65"></a></button>
-        <p id="costdeliveryslav">75,000 rubles</p>
-        <p id="ammountdeliveryslav">You Have 0 delivery babushkas</p>
+            <b><p>HIRE DELIVERY BABUSHKA</p></b>
+         <a href="#" class="button" onclick="hiredeliveryslav()"><img src="mailman.png" width="100" height="75"></a>
+                <b><p id="costdeliveryslav">75,000 rubles</p></b>
+                <b><p id="ammountdeliveryslav">You Have 0 delivery babushkas</p></b>
                 </td>
                 
             <td>
-                <p>BUY DELIVERY TRUCK</p>
-        <button><a href="#" onclick="buydeliverytruck()"><img src="truck.png" width="70" height="65"></a></button>
-        <p id="costdeliverytruck">200,000 rubles</p>
-        <p id="ammountdeliverytruck">You Have 0 delivery trucks</p>
+                <b><p>BUY DELIVERY TRUCK</p></b>
+         <a href="#" class="button" onclick="buydeliverytruck()"><img src="truck.png" width="85" height="75"></a>
+        <b><p id="costdeliverytruck">200,000 rubles</p></b>
+        <b><p id="ammountdeliverytruck">You Have 0 delivery trucks</p></b>
             </td>
                 
             <td>
-                <p>BUY DELIVERY PLANE</p>
-        <button><a href="#" onclick="buydeliveryplane()"><img src="plane.png" width="120" height="65"></a></button>
-        <p id="costdeliveryplane">750,000 rubles</p>
-        <p id="ammountdeliveryplane">You Have 0 delivery planes</p>
+                <b><p>BUY DELIVERY PLANE</p></b>
+         <a href="#" class="button" onclick="buydeliveryplane()"><img src="plane.png" width="120" height="75"></a>
+        <b><p id="costdeliveryplane">750,000 rubles</p></b>
+        <b><p id="ammountdeliveryplane">You Have 0 delivery planes</p></b>
             </td>
                 
             <td>
-            <p>BUY ADVERTISING</p>
-        <button><a href="#" onclick="buyadvertising()"><img src="ad.jpg" width="100" height="65"></a></button>
-        <p id="costadvertising">10,000,000 rubles</p>
-        <p id="ammountadvertising">You Have 0 advertisments</p>
+            <b><p>BUY ADVERTISING</p></b>
+         <a href="#" class="button" onclick="buyadvertising()"><img src="ad.jpg" width="100" height="75"></a>
+        <b><p id="costadvertising">10,000,000 rubles</p></b>
+        <b><p id="ammountadvertising">You Have 0 advertisments</p></b>
                </td>
                 
             <td>
-                <p>HIRE RUSSIAN SCAM ARTIST</p>
-        <button><a href="#" onclick="hirescamartist()"><img src="money.png" width="130" height="65"></a></button>
-        <p id="costscamartist">750,000,000 rubles</p>
-        <p id="ammountscamartist">You Have 0 scam artists</p>
+                <b><p>HIRE RUSSIAN SCAM ARTIST</p></b>
+         <a href="#" class="button" onclick="hirescamartist()"><img src="money.png" width="130" height="75"></a>
+        <b><p id="costscamartist">300,000,000 rubles</p></b>
+                <b><p id="ammountscamartist">You Have 0 scam artists</p></b>
             </td>
                 
            
@@ -232,20 +249,16 @@ body {
         </table>
         <br>
         
-         <center><table border="2">
-            <td style="text-align: center">
-            Rubles Per Second Upgrades:
-            </td>
-            
-        </table>
-        </center>
+         
+        
         <table border="1" style="width: 100%">
+        <caption style="color: wheat"><b>Bottles per/s upgrades</b></caption>
         <tr>
            
             <td>
                <p id="ammountupgrade1"></p>
-            <button a href="#" onClick="buyupgrade1()" style="width: 100%"><span id="ammountupgrade1"></span>Upgrade 1</button>
-            <center><p id="costupgrade1">5000000000 rubles</p></center>
+                <button a href="#" onClick="buyupgrade1()" style="width: 100%"><span id="ammountupgrade1"></span>Upgrade 1</button>
+            <center><b><p id="costupgrade1">5000000000 rubles</p></b></center>
             </td>
             
             
@@ -253,40 +266,15 @@ body {
             <td>
                 <p id="ammountupgrade2"></p>
             <button a href="#" onClick="buyupgrade2()" style="width: 100%"><span id="ammountupgrade2"></span>Upgrade 2</button>
-            <center><p id="costupgrade2">50000000000 rubles</p></center>
+            <center><b><p id="costupgrade2">50000000000 rubles</p></b></center>
             </td>
             
             
             
-            <td><button style="width: 100%">Upgrade 3</button></td>
-            
-            
-            
-            <td><button style="width: 100%">Upgrade 4</button></td>
-            
-            
-            
-            <td><button style="width: 100%">Upgrade 5</button></td>
-            
-            
-            
-            <td><button style="width: 100%">Upgrade 6</button></td>
-            
-            
-            
-            <td><button style="width: 100%">Upgrade 7</button></td>
-            
-            
-            
-            <td><button style="width: 100%">Upgrade 8</button></td>
-            
-            
-            
-            <td><button style="width: 100%">Upgrade 9</button></td>
-            
-            
-            
-            <td><button style="width: 100%">Upgrade 10</button></td>
+            <td><p id="ammountupgrade3"></p>
+            <button a href="#" onClick="buyupgrade3()" style="width: 100%"><span id="ammountupgrade3"></span>Upgrade 3</button>
+                <center><b><p id="costupgrade3">500000000000 rubles</p></b></center></td>
+  
             </tr>
         </table>
         <br>
@@ -361,16 +349,16 @@ body {
              }
                 
                 function buyadvertising() {
-                 if (bottlesofvodka >= ((advertising+1) * 3000000)) {
-                     bottlesofvodka = bottlesofvodka - ((advertising+1) * 3000000);
+                 if (bottlesofvodka >= ((advertising+1) * 10000000)) {
+                     bottlesofvodka = bottlesofvodka - ((advertising+1) * 10000000);
                      advertising = advertising + 1;
                      update()
                  }
              }
                 
                 function hirescamartist() {
-                 if (bottlesofvodka >= ((scamartist+1) * 750000000)) {
-                     bottlesofvodka = bottlesofvodka - ((scamartist+1) * 750000000);
+                 if (bottlesofvodka >= ((scamartist+1) * 300000000)) {
+                     bottlesofvodka = bottlesofvodka - ((scamartist+1) * 300000000);
                      scamartist = scamartist + 1;
                      update()
                  }
@@ -392,6 +380,14 @@ body {
                     }
                 }
                 
+                 function buyupgrade3() {
+                    if (bottlesofvodka >= ((upgrade3+1) * 500000000000)) {
+                        bottlesofvodka = bottlesofvodka - ((upgrade3+1) * 500000000000);
+                        upgrade3 = upgrade3 +1;
+                        update()
+                    }
+                }
+                
                 
                
         </script>
@@ -401,17 +397,62 @@ body {
         
         <script>
         function save() {
-            localStorage.setItem("bottlesofvodka", bottlesofvodka)
+            localStorage.setItem("bottlesofvodka", bottlesofvodka);
+            
+            localStorage.setItem("normieSlav", normieSlav);
+            localStorage.setItem("comradSlav", comradSlav);
+            localStorage.setItem("babushka", babushka);
+            localStorage.setItem("potatofarm", potatofarm);
+            localStorage.setItem("glassfactory", glassfactory);
+            localStorage.setItem("deliveryslav", deliveryslav);
+            localStorage.setItem("deliverytruck", deliverytruck);
+            localStorage.setItem("deliveryplane", deliveryplane);
+            localStorage.setItem("advertising", advertising);
+            localStorage.setItem("scamartist", scamartist);
+            
+            localStorage.setItem("upgrade1", upgrade1);
+            localStorage.setItem("upgrade2", upgrade2);
+            localStorage.setItem("upgrade3", upgrade3);
         }
             function load() {
                 bottlesofvodka = localStorage.getItem("bottlesofvodka");
                 bottlesofvodka = parseInt(bottlesofvodka);
-                document.getElementById('text').value = bottlesofvodka;
-                document.title = " bottlesofvodka"; 
+                
+                normieSlav = localStorage.getItem("normieSlav");
+                normieSlav = parseInt(normieSlav);
+                comradSlav = localStorage.getItem("comradSlav");
+                comradSlav = parseInt(comradSlav);
+                babushka = localStorage.getItem("babushka");
+                babushka = parseInt(babushka);
+                potatofarm = localStorage.getItem("potatofarm");
+                potatofarm = parseInt(potatofarm);
+                glassfactory = localStorage.getItem("glassfactory");
+                glassfactory = parseInt(glassfactory);
+                deliveryslav = localStorage.getItem("deliveryslav");
+                deliveryslav = parseInt(deliveryslav);
+                deliverytruck = localStorage.getItem("deliverytruck");
+                deliverytruck = parseInt(deliverytruck);
+                deliveryplane = localStorage.getItem("deliveryplane");
+                deliveryplane = parseInt(deliveryplane);
+                advertising = localStorage.getItem("advertising");
+                advertising = parseInt(advertising);
+                scamartist = localStorage.getItem("scamartist");
+                scamartist = parseInt(scamartist);
+                
+                upgrade1 = localStorage.getItem("upgrade1");
+                upgrade1 = parseInt(upgrade1);
+                upgrade2 = localStorage.getItem("upgrade2");
+                upgrade2 = parseInt(upgrade2);
+                upgrade3 = localStorage.getItem("upgrade3")
+                upgrade3 = parseInt(upgrade3);
+                
+                update()
+                
             }
             
         </script>
         
     </body>
 </html>
+
 
